@@ -32,7 +32,7 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>ГарантийныйУчет</Name>
+			<Name>Конфигурация</Name>
 			<Synonym/>
 			<Comment/>
 			<NamePrefix/>
@@ -245,22 +245,22 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>ГарантийныеТалоны</Subsystem>
-			<Subsystem>Справочники</Subsystem>
-			<Subsystem>УчетИОтчетность</Subsystem>
-			<CommonModule>РаботаСКлиентами</CommonModule>
-			<CommonModule>РаботаСРемонтами</CommonModule>
-			<Catalog>Клиенты</Catalog>
-			<Catalog>ВидыТехники</Catalog>
-			<Catalog>СервисныеЦентры</Catalog>
-			<Catalog>ГарантийныеТалоны</Catalog>
-			<Document>ПриемНаГарантию</Document>
-			<Document>АктРемонта</Document>
-			<Enum>СтатусыРемонта</Enum>
-			<Report>АнализГарантийныхСлучаев</Report>
-			<Report>СтатистикаРемонтов</Report>
-			<InformationRegister>ГарантийныеСроки</InformationRegister>
-			<AccumulationRegister>УчетРемонтов</AccumulationRegister>
+			<Subsystem>Графики_работы</Subsystem>
+			<Subsystem>Персонал</Subsystem>
+			<Subsystem>Учет_и_отчетность</Subsystem>
+			<CommonModule>РаботаСоСотрудниками</CommonModule>
+			<CommonModule>РаботаСДокументами</CommonModule>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>Должности</Catalog>
+			<Catalog>Отделы</Catalog>
+			<Catalog>Графики_работы</Catalog>
+			<Document>ПриказОПриеме</Document>
+			<Document>ПриказОбУвольнении</Document>
+			<Enum>ВидыЗанятости</Enum>
+			<Report>АнализШтатногоРасписания</Report>
+			<Report>ЗагруженностьСотрудников</Report>
+			<InformationRegister>ОкладыСотрудников</InformationRegister>
+			<AccumulationRegister>ШтатноеРасписание</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
