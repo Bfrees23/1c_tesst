@@ -1,0 +1,142 @@
+```
+# 1C:Enterprise specific files
+*.bsl
+*.xml
+*.md
+*.json
+*.yml
+*.yaml
+*.toml
+*.cfg
+*.ini
+
+# Configuration files
+ConfigDumpInfo.xml
+Configuration.xml
+
+# Language files
+Languages/*.xml
+
+# Accumulation registers
+AccumulationRegisters/*.xml
+
+# Catalogs
+Catalogs/*.xml
+Catalogs/**/Forms/*.xml
+Catalogs/**/Forms/Ext/*.xml
+
+# Common modules
+CommonModules/*.xml
+CommonModules/**/Ext/*.bsl
+
+# Documents
+Documents/*.xml
+Documents/**/Commands/**/*.bsl
+Documents/**/Ext/*.bsl
+Documents/**/Forms/*.xml
+Documents/**/Forms/Ext/*.xml
+Documents/**/Templates/*.xml
+Documents/**/Templates/Ext/*.xml
+
+# Enums
+Enums/*.xml
+
+# Information registers
+InformationRegisters/*.xml
+InformationRegisters/**/Forms/*.xml
+InformationRegisters/**/Forms/Ext/*.xml
+
+# Reports
+Reports/*.xml
+Reports/**/Templates/*.xml
+Reports/**/Templates/Ext/*.xml
+
+# Subsystems
+Subsystems/*.xml
+Subsystems/**/Subsystems/*.xml
+
+# Build artifacts and temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Distribution packages
+dist/
+build/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV
+
+# Gradle
+.gradle/
+
+# Target directory for compiled code
+target/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+```
